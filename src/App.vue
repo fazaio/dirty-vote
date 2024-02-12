@@ -4,7 +4,7 @@
 
 <template>
   <section class="container mx-auto mt-10 h-screen">
-    <div>
+    <div class="px-2">
       <div>
         <iframe class="w-full rounded" height="400"
           src="https://www.youtube-nocookie.com/embed/RRgLZ66NCmE?si=-eW9Ofw5EUJxc8i3" title="YouTube video player"
@@ -12,7 +12,7 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen></iframe>
       </div>
-      <div class="py-10">
+      <div class="py-10 px-3">
         <h1 class="text-3xl text-gray-300">DIRTY VOTE - Full Movie (OFFICIAL)</h1>
         <p class="mt-5 text-gray-400 text-justify">Dirty Vote dokumenter dibintangi oleh tiga ahli hukum tata negara. Mereka adalah
           Zainal Arifin Mochtar, Bivitri
@@ -44,13 +44,12 @@
         </div>
       </div>
     </div>
+    <div class="p-2 text-white text-center text-sm">❤️ by Aux | #Dirtyvote, #kopagsamNidu | 🇮🇩</div>
   </section>
-  <footer class="sticky p-2 bottom-0 w-full text-white text-center text-sm">❤️ by Aux | #Dirtyvote, #kopagsamNidu | 🇮🇩</footer>
 </template>
 
 <style>
 body {
   @apply bg-slate-900;
-  @apply relative;
 }
 </style>

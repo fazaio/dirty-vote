@@ -11,6 +11,7 @@
   "dependencies": {
     "@growthbunker/vuesocial": "^0.1.2",
     "vue": "^3.4.15",
+    "vue-meta": "^2.4.0",
     "vue-social-sharing": "^4.0.0-alpha4"
   },
   "devDependencies": {
